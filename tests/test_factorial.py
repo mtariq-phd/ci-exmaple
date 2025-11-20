@@ -1,7 +1,7 @@
 import pytest
 from mymath.factorial import factorial
 
-
+#  in pytest no need to define a class for tests (unlike unittest)
 def test_3():
     assert factorial(3) == 6
 
